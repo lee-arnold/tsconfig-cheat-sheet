@@ -1,0 +1,86 @@
+{
+    "compilerOptions": {
+        // errors when expressions are unreachable due to prior returns, breaks, etc.
+        "allowUnreachableCode": true,
+
+        // forces files to be parsed with ECMAScript strict mode
+        "alwaysStrict": true,
+
+        // errors when declaring a labelled statement without using it
+        "allowUnusedLabels": false,
+
+        // errors when declaring an optional property and then explicitly setting the value to undefined
+        "exactOptionalPropertyTypes": true,
+
+        // errors when missing a break or return in a switch case
+        "noFallthroughCasesInSwitch": true,
+
+        // errors when the typechecker can't infer the type and falls back to `any`
+        "noImplicitAny": true,
+
+        // errors when redeclaring an inherited class method without the `override` keyword
+        "noImplicitOverride": true,
+
+        // errors if a code path inside a function does not return a value
+        "noImplicitReturns": true,
+
+        // errors when using `this` where it has been inferred by the typechecker as `any`
+        "noImplicitThis": true,
+
+        // errors if a property is accessed with the dot syntax where it hasn't been declared in the variable type
+        "noPropertyAccessFromIndexSignature": true,
+
+        /* adds `undefined` to a field if declared as an unknown key with a known type e.g. [key: string]: string */
+        "noUncheckedIndexedAccess": true,
+
+        // errors when declaring a variable without using it locally or exporting it
+        "noUnusedLocals": true,
+
+        // errors when declaring a parameter in a function without using it
+        "noUnusedParameters": true
+
+        // @TODO: explain this by explaining all the features that come with it
+        "strict": false,
+
+        // applies type checking to arguments passed to function `call`, `bind` and `apply` methods
+        "strictBindCallApply": true,
+
+        // not super sure about this, needs more research. seems like backwards compat
+        "strictBuiltinIteratorReturn": true,
+
+        // errors when declaring a function type with incompatible parameter types
+        "strictFunctionTypes": true,
+
+
+        // errors when you have not guaranteed that an object is not null or undefined before trying to use it
+        "strictNullChecks": true,
+
+        // errors when a class property is declared with a type but not set in the constructor
+        "strictPropertyInitialization": true,
+
+        // changes the type of variables in a catch clause to be `unknown` rather than `any`
+        "useUnknownInCatchVariables": true,
+
+
+        // the below are modules compiler options. do we want to cover them all? probably not
+
+        // errors if typescript cannot resolve the module for a side-effect import
+        "noUncheckedSideEffectImports": true,
+
+        // errors when importing a type without using the keyword "type"
+        "verbatimModuleSyntax": true
+
+// Modules
+//
+//     allowArbitraryExtensions, allowImportingTsExtensions, allowUmdGlobalAccess, baseUrl, customConditions, module, moduleResolution, moduleSuffixes, noResolve, noUncheckedSideEffectImports, paths, resolveJsonModule, resolvePackageJsonExports, resolvePackageJsonImports, rewriteRelativeImportExtensions, rootDir, rootDirs, typeRoots and types
+//
+// Emit
+//
+//     declaration, declarationDir, declarationMap, downlevelIteration, emitBOM, emitDeclarationOnly, importHelpers, inlineSourceMap, inlineSources, mapRoot, newLine, noEmit, noEmitHelpers, noEmitOnError, outDir, outFile, preserveConstEnums, removeComments, sourceMap, sourceRoot and stripInternal
+
+// https://www.typescriptlang.org/tsconfig/
+
+
+    }
+}
+
