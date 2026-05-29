@@ -1,4 +1,4 @@
-import { Theme } from './04-exact-optional-property-types';
+import { Theme } from '../04-exact-optional-property-types';
 
 export const theme: Theme = {};
 

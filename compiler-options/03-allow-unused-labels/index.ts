@@ -3,7 +3,7 @@ const anObject = {
     surname: 'Arnold',
 };
 likes: ['cats', 'beer'];
-// this is probably a mistake
+// this is probably a typo
 
 thisIsALabel: {
     console.log('a label');
