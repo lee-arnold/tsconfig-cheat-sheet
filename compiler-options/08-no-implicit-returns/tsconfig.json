@@ -1,5 +1,5 @@
 {
     "compilerOptions": {
-        "noImplicitReturns": true
+        "noImplicitReturns": false
     }
 }

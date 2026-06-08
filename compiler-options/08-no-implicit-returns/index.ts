@@ -4,5 +4,3 @@ const getBrand = (type: 'news' | 'music') => {
     } else {
     }
 };
-
-// bit of a weird name for this option

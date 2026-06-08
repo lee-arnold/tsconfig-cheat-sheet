@@ -1,4 +1,4 @@
-switch (true) {
+switch (1 > 0) {
     case true:
         console.log(true);
     case false:

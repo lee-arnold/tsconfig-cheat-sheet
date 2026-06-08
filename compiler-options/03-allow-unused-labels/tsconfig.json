@@ -1,5 +1,5 @@
 {
     "compilerOptions": {
-        "allowUnusedLabels": false
+        "allowUnusedLabels": true
     }
 }

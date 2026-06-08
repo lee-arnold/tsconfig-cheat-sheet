@@ -1,5 +1,5 @@
 {
     "compilerOptions": {
-        "noFallthroughCasesInSwitch": true
+        "noFallthroughCasesInSwitch": false
     }
 }
